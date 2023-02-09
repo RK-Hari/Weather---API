@@ -1,0 +1,58 @@
+.body body{
+    background-image: url(6SLzBEY.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h1{
+    color:khaki;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.center button{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:200px;
+    padding:15px;
+    margin:20px 10px;
+    border-radius: 25px;
+    border:3px solid coral;
+    background: transparent;
+}
+.center button::after{
+    content:'';
+    height:5px;
+    width:0;
+    background-color:goldenrod;
+    top:0;
+    top:20px;
+    position:absolute;
+    transition: 0.5s ;
+}
+.center button:hover:after{
+    width:100%;
+}
+.center button:hover::after
+{
+    width:100%
+}
+.grid{
+    background-color: darkcyan;
+    width:100%;
+    height: 450px;
+}
+.style{
+    font-variant: small-caps;
+    font-style: italic;
+    color:antiquewhite;
+    font-size: larger;
+}
